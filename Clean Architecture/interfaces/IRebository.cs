@@ -13,5 +13,7 @@ namespace Clean_Architecture.interfaces
         ValueTask<IEnumerable<TEntity>> GetAll();
         ValueTask<TEntity> UpdateAsync (TEntity entity);
         ValueTask<TEntity> DeleteAsync (TEntity entity);
+
+        // S
     }
 }
