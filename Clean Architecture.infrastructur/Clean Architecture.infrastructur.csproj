@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>Clean_Architecture.infrastructur</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean Architecture.API\Clean Architecture.API.csproj" />
+    <ProjectReference Include="..\Clean Architecture.Servecise\Clean Architecture.Servecise.csproj" />
+    <ProjectReference Include="..\Clean Architecture\Clean Architecture.Core.csproj" />
+  </ItemGroup>
+
+</Project>
